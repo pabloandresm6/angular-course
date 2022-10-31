@@ -29,4 +29,8 @@ export class AppComponent implements AfterViewInit {
 
     }
 
+    onToggle(isHighLighted) {
+       console.log(isHighLighted);
+    }
+
 }
